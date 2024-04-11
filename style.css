@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap')
+;
+
+
+*{
+    margin: 0;
+   padding: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+  
+}
+
+
+.container{
+    padding-left:  8%;
+    padding-right: 8%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://getwallpapers.com/wallpaper/full/2/a/7/1418099-car-background-pictures-1920x1080-for-1080p.jpg);
+    height: 100vh;
+     width: 100%;
+     background-position: center;
+     background-size: cover;
+}
+
+.paragraf{
+    line-height: 17px;
+}
+
+p{
+font-size: 10px;
+color: #fff;
+
+}
+
+.btn {
+padding: 12px 28px;
+border-radius: 25px;
+font-size: 12px;
+font-weight: 700;
+margin-top: 30px;
+cursor: pointer;
+color: #000;
+background-color: #fff;
+border: 1px solid red;
+text-decoration: none;
+
+}
+
+.btn:hover { 
+background-color:#000 ;
+color: #fff;
+border-color: #fff;
+transition: ease 0.5s;
+
+}
+
+ .batya{
+font-size: 50px;
+font-weight: 500;
+color: rgb(167, 255, 44);
+padding: 10px 15px;
+margin-left: 60px;
+margin-bottom: -35px;
+cursor: pointer;
+}
+
+.batya:hover {
+transform: translateY(-10px);
+background-color:blue;
+border-radius: 2px solid blue;
+box-shadow: 10px 10px black;
+color: #fff;
+border-radius: 30px;
+}
+
+
+
+.novbar{
+    height: 12%;
+    
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+ 
+.novbar a img{
+    width: 80px;
+  border-radius: 15px;
+ box-shadow: rgb(43, 43, 42) 5px 5px;
+}
+
+nav ul li a {
+color: #fff;
+text-decoration: none;
+margin-right: 20px;
+}
+
+nav ul li a:hover{
+    cursor: pointer;
+    color: rgb(90, 163, 163);
+    transition: ease 0.5s;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.row {
+    display: flex;
+    column-gap: 10px;
+    height: 88%;
+    align-items: center;
+}
+ 
+.col{
+
+    flex-basis: 50%;
+}
+
+
+h1 {
+    color: #fff;
+    font-size: 100px;
+}
+
+h5 {
+
+    color: #fff;
+}
+
+.desc {
+    line-height: 30px;
+    font-size: 16px;
+   font-weight: 500;
+}
+
+.card .card-head{
+background-color: rgba(0,0,0,0.6);
+border-radius: 6px;
+padding: 5px;
+}
+
+
+.card .card-bottom{
+position: absolute;
+bottom: 26px;
+
+}
+
+.cards{
+max-width: 500px;
+margin: auto;
+}
+
+
+
+.card{
+width: 200px;
+height: 230px;
+display: inline-block;
+border-radius: 10px;
+padding: 15px 25px;
+cursor: pointer;
+background-position: center;
+background-size: cover;
+border: 1px solid red;
+position: relative;
+margin: 10px 15px;
+
+}
+
+
+.card:hover {
+transform: translateY(-10px);
+transition: 0.5s;
+border-color: aqua;
+}
+
+
+.card-1{
+
+    background-image: url(https://masinlar.az/uploads/news/17069627776348365be2f59c4308.jpg);
+    background-position: center;
+ background-size: cover;
+
+}
+
+
+.card-2{
+background-image: url(https://i.pinimg.com/originals/da/e9/b0/dae9b0e3195561231c1c36d6c6e8c071.jpg);
+background-position: center;
+background-size: cover;
+}
+
+
+.card-3{
+    background-image: url(https://i.pinimg.com/originals/26/d4/77/26d4779bd9f7b89621c92a8e136cc465.jpg);
+    background-position: center;
+ background-size: cover;
+}
+
+
+
+
+.card-4{ 
+    background-image: url(https://i0.shbdn.com/photos/36/80/58/x5_874368058jgi.jpg);
+    background-position: center;
+ background-size: cover;
+}
+
+
